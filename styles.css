@@ -1,0 +1,115 @@
+/** RESETS **/
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+/** FIN RESETS **/
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.card__container{
+    width: 100%;
+    max-width: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card__img-container{
+    position: relative;
+    width: 100%;
+    height: 240px;
+}
+
+.card__img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card__favorite-container{
+    width: calc(100% - 20px);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__favorite-text{
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card__favorite-container i{
+    color: #65696B;
+    font-size: 18px;
+}
+
+.card__content{
+    padding: 15px;
+}
+
+.card__title-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.card__title-rating h2{
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+.rating{
+    font-size: 16px;
+    color: #333;
+    white-space: nowrap;
+}
+
+.rating i{
+    color: #333;
+}
+
+.card__subtitle{
+    color: grey;
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+.card__date{
+    color: grey;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.card__price-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+.per-night {
+    font-weight: normal;
+    font-size: 14px;
+    color: #333;
+}

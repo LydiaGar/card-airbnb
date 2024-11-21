@@ -7,23 +7,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        <div>
-            <img style="width: 150px;" src="house-airbnb.png" alt="Casa en Uruguay">
-            <div>
-                <i class="fas fa-heart"></i> Favorito entre huéspedes
+    <div class="card__container">
+        <div class="card__img-container">
+            <img src="house-airbnb.png" alt="Casa en Uruguay">
+            <div class="card__favorite-container">
+                <div class="card__favorite-text">Favorito entre huéspedes</div>
+                <i class="fas fa-heart"></i>
             </div>
         </div>
-        <div>
-            <h2>Estación Atlántida, Uruguay</h2>
-            <p>Cerca de Bodega Pabo Fallabrino</p>
-            <p>23 al 28 de Dic.</p>
-            <div>
-                <span>
-                    <i class="fas fa-star"></i> 4.9
-                </span>
-                <span>$57 USD <span>noche</span></span>
+        <div class="card__content">
+            <div class="card__title-rating">
+                <h2>Estación Atlántida, Uruguay</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i> 4.9
+                </div>
             </div>
+            <p class="card__subtitle">Cerca de Bodega Pabo Fallabrino</p>
+            <p class="card__date">23 al 28 de Dic.</p>
+            <div class="card__price-rating">
+                <span class="price">$57 USD <span class="per-night">noche</span></span>
+              </div>
         </div>
     </div>
 </body>
